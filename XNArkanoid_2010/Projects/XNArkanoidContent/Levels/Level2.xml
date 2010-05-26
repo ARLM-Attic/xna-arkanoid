@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Level Pattern="Content\Textures\Patterns\pattern1" Frame="Content\Textures\Frames\frame1">
+	<Bricks>
+		<Brick PosX="60" PosY="70" Score="100" Hits="1" Prize="3" SizeX="40" SizeY="20" R="0" G="0" B="240"/>
+
+		<Brick PosX="140" PosY="70" Score="100" Hits="1" Prize="5" SizeX="40" SizeY="20" R="0" G="0" B="240"/>
+
+		<Brick PosX="220" PosY="70" Score="100" Hits="1" Prize="4" SizeX="40" SizeY="20" R="0" G="0" B="240"/>
+
+		<Brick PosX="300" PosY="70" Score="100" Hits="1" Prize="3" SizeX="40" SizeY="20" R="0" G="0" B="240"/>
+
+		<Brick PosX="380" PosY="70" Score="100" Hits="1" Prize="5" SizeX="40" SizeY="20" R="0" G="0" B="240"/>
+
+		<Brick PosX="460" PosY="70" Score="100" Hits="1" Prize="4" SizeX="40" SizeY="20" R="0" G="0" B="240"/>
+
+		<Brick PosX="60" PosY="90" Score="200" Hits="2" Prize="0" SizeX="40" SizeY="20" R="0" G="240" B="240"/>
+		<Brick PosX="100" PosY="90" Score="200" Hits="2" Prize="0" SizeX="40" SizeY="20" R="0" G="240" B="240"/>
+		<Brick PosX="140" PosY="90" Score="200" Hits="2" Prize="0" SizeX="40" SizeY="20" R="0" G="240" B="240"/>
+		<Brick PosX="180" PosY="90" Score="200" Hits="2" Prize="0" SizeX="40" SizeY="20" R="0" G="240" B="240"/>
+		<Brick PosX="220" PosY="90" Score="200" Hits="2" Prize="0" SizeX="40" SizeY="20" R="0" G="240" B="240"/>
+		<Brick PosX="260" PosY="90" Score="200" Hits="2" Prize="0" SizeX="40" SizeY="20" R="0" G="240" B="240"/>
+		<Brick PosX="300" PosY="90" Score="200" Hits="2" Prize="0" SizeX="40" SizeY="20" R="0" G="240" B="240"/>
+		<Brick PosX="340" PosY="90" Score="200" Hits="2" Prize="0" SizeX="40" SizeY="20" R="0" G="240" B="240"/>
+		<Brick PosX="380" PosY="90" Score="200" Hits="2" Prize="0" SizeX="40" SizeY="20" R="0" G="240" B="240"/>
+		<Brick PosX="420" PosY="90" Score="200" Hits="2" Prize="0" SizeX="40" SizeY="20" R="0" G="240" B="240"/>
+		<Brick PosX="460" PosY="90" Score="200" Hits="2" Prize="0" SizeX="40" SizeY="20" R="0" G="240" B="240"/>
+
+		<Brick PosX="60" PosY="110" Score="100" Hits="1" Prize="0" SizeX="40" SizeY="20" R="240" G="0" B="0"/>
+
+		<Brick PosX="140" PosY="110" Score="100" Hits="1" Prize="0" SizeX="40" SizeY="20" R="240" G="0" B="0"/>
+
+		<Brick PosX="220" PosY="110" Score="100" Hits="1" Prize="0" SizeX="40" SizeY="20" R="240" G="0" B="0"/>
+
+		<Brick PosX="300" PosY="110" Score="100" Hits="1" Prize="0" SizeX="40" SizeY="20" R="240" G="0" B="0"/>
+
+		<Brick PosX="380" PosY="110" Score="100" Hits="1" Prize="0" SizeX="40" SizeY="20" R="240" G="0" B="0"/>
+
+		<Brick PosX="460" PosY="110" Score="100" Hits="1" Prize="0" SizeX="40" SizeY="20" R="240" G="0" B="0"/>
+
+		<Brick PosX="60" PosY="130" Score="100" Hits="1" Prize="3" SizeX="40" SizeY="20" R="0" G="240" B="0"/>
+
+		<Brick PosX="140" PosY="130" Score="100" Hits="1" Prize="5" SizeX="40" SizeY="20" R="0" G="240" B="0"/>
+
+		<Brick PosX="220" PosY="130" Score="100" Hits="1" Prize="4" SizeX="40" SizeY="20" R="0" G="240" B="0"/>
+
+		<Brick PosX="300" PosY="130" Score="100" Hits="1" Prize="3" SizeX="40" SizeY="20" R="0" G="240" B="0"/>
+
+		<Brick PosX="380" PosY="130" Score="100" Hits="1" Prize="5" SizeX="40" SizeY="20" R="0" G="240" B="0"/>
+
+		<Brick PosX="460" PosY="130" Score="100" Hits="1" Prize="4" SizeX="40" SizeY="20" R="0" G="240" B="0"/>
+	</Bricks>
+</Level>

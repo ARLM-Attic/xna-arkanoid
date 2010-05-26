@@ -1,0 +1,461 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent>
+  <Asset Type="XNArkanoid.Descs.LevelDesc">
+    <!--Blue: FFF00000 -->
+    <!--Red: FF0000F0 -->
+    <!-- Azul claro: FFF0F000-->
+    <!-- Amarillo: FF00FFE4-->
+    <PatternAssetName>Content\Textures\Patterns\pattern1</PatternAssetName>
+    <FrameAssetName>Content\Textures\Frames\frame1</FrameAssetName>
+    <Bricks>
+      <Item>
+        <Position>40 70</Position>
+        <Score>100</Score>
+        <Hits>1</Hits>
+        <Prize>None</Prize>
+        <Size>40 20</Size>
+        <Color>FFF00000</Color>
+      </Item>
+      <Item>
+        <Position>80 70</Position>
+        <Score>100</Score>
+        <Hits>1</Hits>
+        <Prize>DisruptionIntoThreeBalls</Prize>
+        <Size>40 20</Size>
+        <Color>FFF00000</Color>
+      </Item>
+      <Item>
+        <Position>120 70</Position>
+        <Score>100</Score>
+        <Hits>1</Hits>
+        <Prize>None</Prize>
+        <Size>40 20</Size>
+        <Color>FFF00000</Color>
+      </Item>
+      <Item>
+        <Position>160 70</Position>
+        <Score>100</Score>
+        <Hits>1</Hits>
+        <Prize>None</Prize>
+        <Size>40 20</Size>
+        <Color>FFF00000</Color>
+      </Item>
+      <Item>
+        <Position>200 70</Position>
+        <Score>100</Score>
+        <Hits>1</Hits>
+        <Prize>None</Prize>
+        <Size>40 20</Size>
+        <Color>FFF00000</Color>
+      </Item>
+      <Item>
+        <Position>240 70</Position>
+        <Score>100</Score>
+        <Hits>1</Hits>
+        <Prize>DisruptionIntoThreeBalls</Prize>
+        <Size>40 20</Size>
+        <Color>FFF00000</Color>
+      </Item>
+      <Item>
+        <Position>280 70</Position>
+        <Score>100</Score>
+        <Hits>1</Hits>
+        <Prize>None</Prize>
+        <Size>40 20</Size>
+        <Color>FFF00000</Color>
+      </Item>
+      <Item>
+        <Position>320 70</Position>
+        <Score>100</Score>
+        <Hits>1</Hits>
+        <Prize>None</Prize>
+        <Size>40 20</Size>
+        <Color>FFF00000</Color>
+      </Item>
+      <Item>
+        <Position>360 70</Position>
+        <Score>100</Score>
+        <Hits>1</Hits>
+        <Prize>None</Prize>
+        <Size>40 20</Size>
+        <Color>FFF00000</Color>
+      </Item>
+
+
+      <Item>
+        <Position>40 90</Position>
+        <Score>100</Score>
+        <Hits>1</Hits>
+        <Prize>DisruptionIntoThreeBalls</Prize>
+        <Size>40 20</Size>
+        <Color>FFF00000</Color>
+      </Item>
+      <Item>
+        <Position>80 90</Position>
+        <Score>100</Score>
+        <Hits>1</Hits>
+        <Prize>None</Prize>
+        <Size>40 20</Size>
+        <Color>FFF00000</Color>
+      </Item>
+      <Item>
+        <Position>120 90</Position>
+        <Score>100</Score>
+        <Hits>1</Hits>
+        <Prize>None</Prize>
+        <Size>40 20</Size>
+        <Color>FFF00000</Color>
+      </Item>
+      <Item>
+        <Position>160 90</Position>
+        <Score>100</Score>
+        <Hits>1</Hits>
+        <Prize>CatchBall</Prize>
+        <Size>40 20</Size>
+        <Color>FFF00000</Color>
+      </Item>
+      <Item>
+        <Position>200 90</Position>
+        <Score>100</Score>
+        <Hits>1</Hits>
+        <Prize>None</Prize>
+        <Size>40 20</Size>
+        <Color>FFF00000</Color>
+      </Item>
+      <Item>
+        <Position>240 90</Position>
+        <Score>100</Score>
+        <Hits>1</Hits>
+        <Prize>SpeedDown</Prize>
+        <Size>40 20</Size>
+        <Color>FFF00000</Color>
+      </Item>
+      <Item>
+        <Position>280 90</Position>
+        <Score>100</Score>
+        <Hits>1</Hits>
+        <Prize>None</Prize>
+        <Size>40 20</Size>
+        <Color>FFF00000</Color>
+      </Item>
+      <Item>
+        <Position>320 90</Position>
+        <Score>100</Score>
+        <Hits>1</Hits>
+        <Prize>None</Prize>
+        <Size>40 20</Size>
+        <Color>FFF00000</Color>
+      </Item>
+      <Item>
+        <Position>360 90</Position>
+        <Score>100</Score>
+        <Hits>1</Hits>
+        <Prize>None</Prize>
+        <Size>40 20</Size>
+        <Color>FFF00000</Color>
+      </Item>
+
+
+      <Item>
+        <Position>40 110</Position>
+        <Score>100</Score>
+        <Hits>1</Hits>
+        <Prize>None</Prize>
+        <Size>40 20</Size>
+        <Color>FF0000F0</Color>
+      </Item>
+      <Item>
+        <Position>80 110</Position>
+        <Score>100</Score>
+        <Hits>1</Hits>
+        <Prize>None</Prize>
+        <Size>40 20</Size>
+        <Color>FF0000F0</Color>
+      </Item>
+      <Item>
+        <Position>120 110</Position>
+        <Score>100</Score>
+        <Hits>1</Hits>
+        <Prize>None</Prize>
+        <Size>40 20</Size>
+        <Color>FF0000F0</Color>
+      </Item>
+      <Item>
+        <Position>160 110</Position>
+        <Score>100</Score>
+        <Hits>1</Hits>
+        <Prize>SpeedDown</Prize>
+        <Size>40 20</Size>
+        <Color>FF0000F0</Color>
+      </Item>
+      <Item>
+        <Position>200 110</Position>
+        <Score>100</Score>
+        <Hits>1</Hits>
+        <Prize>None</Prize>
+        <Size>40 20</Size>
+        <Color>FF0000F0</Color>
+      </Item>
+      <Item>
+        <Position>240 110</Position>
+        <Score>100</Score>
+        <Hits>1</Hits>
+        <Prize>None</Prize>
+        <Size>40 20</Size>
+        <Color>FF0000F0</Color>
+      </Item>
+      <Item>
+        <Position>280 110</Position>
+        <Score>100</Score>
+        <Hits>1</Hits>
+        <Prize>None</Prize>
+        <Size>40 20</Size>
+        <Color>FF0000F0</Color>
+      </Item>
+      <Item>
+        <Position>320 110</Position>
+        <Score>100</Score>
+        <Hits>1</Hits>
+        <Prize>ExpandVaus</Prize>
+        <Size>40 20</Size>
+        <Color>FF0000F0</Color>
+      </Item>
+      <Item>
+        <Position>360 110</Position>
+        <Score>100</Score>
+        <Hits>1</Hits>
+        <Prize>None</Prize>
+        <Size>40 20</Size>
+        <Color>FF0000F0</Color>
+      </Item>
+
+
+      <Item>
+        <Position>40 130</Position>
+        <Score>100</Score>
+        <Hits>1</Hits>
+        <Prize>Laser</Prize>
+        <Size>40 20</Size>
+        <Color>FF0000F0</Color>
+      </Item>
+      <Item>
+        <Position>80 130</Position>
+        <Score>100</Score>
+        <Hits>1</Hits>
+        <Prize>None</Prize>
+        <Size>40 20</Size>
+        <Color>FF0000F0</Color>
+      </Item>
+      <Item>
+        <Position>120 130</Position>
+        <Score>100</Score>
+        <Hits>1</Hits>
+        <Prize>None</Prize>
+        <Size>40 20</Size>
+        <Color>FF0000F0</Color>
+      </Item>
+      <Item>
+        <Position>160 130</Position>
+        <Score>100</Score>
+        <Hits>1</Hits>
+        <Prize>None</Prize>
+        <Size>40 20</Size>
+        <Color>FF0000F0</Color>
+      </Item>
+      <Item>
+        <Position>200 130</Position>
+        <Score>100</Score>
+        <Hits>1</Hits>
+        <Prize>None</Prize>
+        <Size>40 20</Size>
+        <Color>FF0000F0</Color>
+      </Item>
+      <Item>
+        <Position>240 130</Position>
+        <Score>100</Score>
+        <Hits>1</Hits>
+        <Prize>None</Prize>
+        <Size>40 20</Size>
+        <Color>FF0000F0</Color>
+      </Item>
+      <Item>
+        <Position>280 130</Position>
+        <Score>100</Score>
+        <Hits>1</Hits>
+        <Prize>CatchBall</Prize>
+        <Size>40 20</Size>
+        <Color>FF0000F0</Color>
+      </Item>
+      <Item>
+        <Position>320 130</Position>
+        <Score>100</Score>
+        <Hits>1</Hits>
+        <Prize>None</Prize>
+        <Size>40 20</Size>
+        <Color>FF0000F0</Color>
+      </Item>
+      <Item>
+        <Position>360 130</Position>
+        <Score>100</Score>
+        <Hits>1</Hits>
+        <Prize>None</Prize>
+        <Size>40 20</Size>
+        <Color>FF0000F0</Color>
+      </Item>
+
+
+
+      <Item>
+        <Position>40 150</Position>
+        <Score>100</Score>
+        <Hits>1</Hits>
+        <Prize>None</Prize>
+        <Size>40 20</Size>
+        <Color>FFF0F000</Color>
+      </Item>
+      <Item>
+        <Position>80 150</Position>
+        <Score>100</Score>
+        <Hits>1</Hits>
+        <Prize>None</Prize>
+        <Size>40 20</Size>
+        <Color>FFF0F000</Color>
+      </Item>
+      <Item>
+        <Position>120 150</Position>
+        <Score>100</Score>
+        <Hits>1</Hits>
+        <Prize>None</Prize>
+        <Size>40 20</Size>
+        <Color>FFF0F000</Color>
+      </Item>
+      <Item>
+        <Position>160 150</Position>
+        <Score>100</Score>
+        <Hits>1</Hits>
+        <Prize>None</Prize>
+        <Size>40 20</Size>
+        <Color>FFF0F000</Color>
+      </Item>
+      <Item>
+        <Position>200 150</Position>
+        <Score>100</Score>
+        <Hits>1</Hits>
+        <Prize>None</Prize>
+        <Size>40 20</Size>
+        <Color>FFF0F000</Color>
+      </Item>
+      <Item>
+        <Position>240 150</Position>
+        <Score>100</Score>
+        <Hits>1</Hits>
+        <Prize>None</Prize>
+        <Size>40 20</Size>
+        <Color>FFF0F000</Color>
+      </Item>
+      <Item>
+        <Position>280 150</Position>
+        <Score>100</Score>
+        <Hits>1</Hits>
+        <Prize>None</Prize>
+        <Size>40 20</Size>
+        <Color>FFF0F000</Color>
+      </Item>
+      <Item>
+        <Position>320 150</Position>
+        <Score>100</Score>
+        <Hits>1</Hits>
+        <Prize>None</Prize>
+        <Size>40 20</Size>
+        <Color>FFF0F000</Color>
+      </Item>
+      <Item>
+        <Position>360 150</Position>
+        <Score>100</Score>
+        <Hits>1</Hits>
+        <Prize>None</Prize>
+        <Size>40 20</Size>
+        <Color>FFF0F000</Color>
+      </Item>
+
+
+
+      <Item>
+        <Position>40 170</Position>
+        <Score>100</Score>
+        <Hits>1</Hits>
+        <Prize>None</Prize>
+        <Size>40 20</Size>
+        <Color>FF00FFE4</Color>
+      </Item>
+      <Item>
+        <Position>80 170</Position>
+        <Score>100</Score>
+        <Hits>1</Hits>
+        <Prize>None</Prize>
+        <Size>40 20</Size>
+        <Color>FF00FFE4</Color>
+      </Item>
+      <Item>
+        <Position>120 170</Position>
+        <Score>100</Score>
+        <Hits>1</Hits>
+        <Prize>None</Prize>
+        <Size>40 20</Size>
+        <Color>FF00FFE4</Color>
+      </Item>
+      <Item>
+        <Position>160 170</Position>
+        <Score>100</Score>
+        <Hits>1</Hits>
+        <Prize>None</Prize>
+        <Size>40 20</Size>
+        <Color>FF00FFE4</Color>
+      </Item>
+      <Item>
+        <Position>200 170</Position>
+        <Score>100</Score>
+        <Hits>1</Hits>
+        <Prize>None</Prize>
+        <Size>40 20</Size>
+        <Color>FF00FFE4</Color>
+      </Item>
+      <Item>
+        <Position>240 170</Position>
+        <Score>100</Score>
+        <Hits>1</Hits>
+        <Prize>CatchBall</Prize>
+        <Size>40 20</Size>
+        <Color>FF00FFE4</Color>
+      </Item>
+      <Item>
+        <Position>280 170</Position>
+        <Score>100</Score>
+        <Hits>1</Hits>
+        <Prize>None</Prize>
+        <Size>40 20</Size>
+        <Color>FF00FFE4</Color>
+      </Item>
+      <Item>
+        <Position>320 170</Position>
+        <Score>100</Score>
+        <Hits>1</Hits>
+        <Prize>None</Prize>
+        <Size>40 20</Size>
+        <Color>FF00FFE4</Color>
+      </Item>
+      <Item>
+        <Position>360 170</Position>
+        <Score>100</Score>
+        <Hits>1</Hits>
+        <Prize>None</Prize>
+        <Size>40 20</Size>
+        <Color>FF00FFE4</Color>
+      </Item>
+
+
+      
+    </Bricks>     
+  </Asset>
+
+</XnaContent>
