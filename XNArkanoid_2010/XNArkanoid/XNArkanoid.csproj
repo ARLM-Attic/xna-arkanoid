@@ -118,14 +118,14 @@
     <Content Include="Settings\settings.xml" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\HelloXnaFrameworkContent\XNArkanoidContent.contentproj">
-      <Name>XNArkanoidContent %28Content%29</Name>
-      <XnaReferenceType>Content</XnaReferenceType>
-      <Project>{F00695CB-13D5-441C-B089-4CB8590467E0}</Project>
-    </ProjectReference>
+    <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
+    <ProjectReference Include="..\XNArkanoidContent\XNArkanoidContent.contentproj">
+      <Project>{F00695CB-13D5-441C-B089-4CB8590467E0}</Project>
+      <Name>XNArkanoidContent %28Content%29</Name>
+      <XnaReferenceType>Content</XnaReferenceType>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\XNA Game Studio\Microsoft.Xna.GameStudio.targets" />
