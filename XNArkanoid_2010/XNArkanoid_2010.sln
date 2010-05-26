@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XNArkanoid", "HelloXnaFramework\HelloXnaFramework\XNArkanoid.csproj", "{F6DF1F18-490F-4B1A-BDAF-D37350ED19DD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XNArkanoid", "Projects\XNArkanoid\XNArkanoid.csproj", "{F6DF1F18-490F-4B1A-BDAF-D37350ED19DD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XNArkanoidContent", "HelloXnaFramework\HelloXnaFrameworkContent\XNArkanoidContent.contentproj", "{F00695CB-13D5-441C-B089-4CB8590467E0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XNArkanoidContent", "Projects\XNArkanoidContent\XNArkanoidContent.contentproj", "{F00695CB-13D5-441C-B089-4CB8590467E0}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContentDescs", "ContentPipelineExtension1\ContentDescs.csproj", "{73CED5CD-1557-4984-BF8F-14397BF69287}"
 EndProject
@@ -16,12 +16,12 @@ Global
 		SccProjectUniqueName1 = ContentPipelineExtension1\\ContentDescs.csproj
 		SccProjectName1 = ContentPipelineExtension1
 		SccLocalPath1 = ContentPipelineExtension1
-		SccProjectUniqueName2 = HelloXnaFramework\\HelloXnaFramework\\XNArkanoid.csproj
-		SccProjectName2 = HelloXnaFramework/HelloXnaFramework
-		SccLocalPath2 = HelloXnaFramework\\HelloXnaFramework
-		SccProjectUniqueName3 = HelloXnaFramework\\HelloXnaFrameworkContent\\XNArkanoidContent.contentproj
-		SccProjectName3 = HelloXnaFramework/HelloXnaFrameworkContent
-		SccLocalPath3 = HelloXnaFramework\\HelloXnaFrameworkContent
+		SccProjectUniqueName2 = Projects\\XNArkanoid\\XNArkanoid.csproj
+		SccProjectName2 = Projects/XNArkanoid
+		SccLocalPath2 = Projects\\XNArkanoid
+		SccProjectUniqueName3 = Projects\\XNArkanoidContent\\XNArkanoidContent.contentproj
+		SccProjectName3 = Projects/XNArkanoidContent
+		SccLocalPath3 = Projects\\XNArkanoidContent
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
