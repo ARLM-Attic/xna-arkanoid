@@ -278,7 +278,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\ContentPipelineExtension1\ContentDescs.csproj">
+    <ProjectReference Include="..\ContentPipelineExtension1\ContentDescs.csproj">
       <Project>{73CED5CD-1557-4984-BF8F-14397BF69287}</Project>
       <Name>ContentDescs</Name>
     </ProjectReference>
