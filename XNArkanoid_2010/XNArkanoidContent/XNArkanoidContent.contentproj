@@ -271,11 +271,6 @@
       <Processor>PassThroughProcessor</Processor>
       <SubType>Designer</SubType>
     </Compile>
-    <None Include="Levels\Level2.xml">
-      <Name>Level2</Name>
-      <Importer>XmlImporter</Importer>
-      <Processor>PassThroughProcessor</Processor>
-    </None>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\ContentPipelineExtension1\ContentDescs.csproj">
