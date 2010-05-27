@@ -155,8 +155,9 @@ namespace XNArkanoid
             mVaus.mPosition = new Vector2(mVaus.mPosition.X, mGraphics.GraphicsDevice.Viewport.Height - 20 - Vaus.cHeight);
 
             // Load levels. Should be done after sprite creation
-            Microsoft.Xna.Framework.Color colo = new Microsoft.Xna.Framework.Color(228, 255, 0);
-            uint a = colo.PackedValue;
+            //Microsoft.Xna.Framework.Color colo = new Microsoft.Xna.Framework.Color(228, 255, 0);
+            //uint a = colo.PackedValue;
+
             mLevels.Clear();
             Level lev = Content.Load<Level>(@"Content\Levels\Level1");
             lev.UpdateDrawingRectangles(mGameRectangle);
