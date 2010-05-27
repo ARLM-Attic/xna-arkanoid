@@ -277,12 +277,14 @@ namespace XNArkanoid
         /// <summary>
         /// 
         /// </summary>
-        /// <param name="pQueControl"></param>
+        /// <param name="pControl"></param>
         /// <param name="pIdx"></param>
-        void mMainDialog_ControlSelected(UI.UIControl pQueControl, int pIdx)
+        void mMainDialog_ControlSelected(UI.UIControl pControl, int pIdx)
         {
-            if (pQueControl == mMainDialog.mNewGameButton)
+            if (pControl == mMainDialog.mNewGameButton)
                 this.StartNewGame();
+            else if (pControl == mMainDialog.mExitButton)
+                this.Exit();
         }
         /// <summary>
         /// 

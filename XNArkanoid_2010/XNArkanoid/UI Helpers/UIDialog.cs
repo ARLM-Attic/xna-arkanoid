@@ -86,8 +86,8 @@ namespace XNArkanoid.UI
 
             foreach (UIControl ctrl in mControls)
             {
-                int rectEndX = st.X + (int)ctrl.Size.X;
-                int rectEndY = st.Y + (int)ctrl.Size.Y;
+                int rectEndX = (int)ctrl.Pos.X + (int)ctrl.Size.X;
+                int rectEndY = (int)ctrl.Pos.Y + (int)ctrl.Size.Y;
 
                 if (st.X < ctrl.Pos.X || st.X > rectEndX || st.Y < ctrl.Pos.Y || st.Y > rectEndY)
                     continue;

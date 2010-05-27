@@ -51,8 +51,12 @@ namespace XNArkanoid.UIGame
             if (XNArkanoidGame.mGameState != eGameState.DialogContinue)
                 return;
 
+
+            // Read mouse
+            Microsoft.Xna.Framework.Input.MouseState st = Microsoft.Xna.Framework.Input.Mouse.GetState();
+
             // Check for player pressing A
-            if (Input.XInputHelper.GamePads[PlayerIndex.One].APressed && PlayerContinues != null)
+            if ((Input.XInputHelper.GamePads[PlayerIndex.One].APressed || st.LeftButton == Microsoft.Xna.Framework.Input.ButtonState.Pressed) && PlayerContinues != null)
                 PlayerContinues(this, EventArgs.Empty);
 
             // Refresh counter

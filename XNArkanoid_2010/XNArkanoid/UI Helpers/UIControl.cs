@@ -36,6 +36,12 @@ namespace XNArkanoid.UI
             get { return mFocus; }
             set { mFocus = value; }
         }
+        protected string mName = "";
+        public string Name
+        {
+            get { return mName; }
+            set { mName = value; }
+        }
 
 
         /// <summary>

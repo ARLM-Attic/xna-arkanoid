@@ -19,7 +19,7 @@ namespace XNArkanoid.UIGame
     public class GUIMainScreen : UIDialog
     {
         protected SpriteBatch mSpriteBatch = null;
-        public UIButton mNewGameButton, mOptionsButtons, mExitButton;
+        public UIButton mNewGameButton, mOptionsButton, mExitButton;
 
         /// <summary>
         /// 
@@ -66,6 +66,7 @@ namespace XNArkanoid.UIGame
 
             // Create buttons
             mNewGameButton = new UIButton(this.Game, this.mSpriteBatch);
+            mNewGameButton.Name = "New Game";
             mNewGameButton.FocusAnimationSpeed = 0.9f;
             mNewGameButton.Texture = mGame.Content.Load<Texture2D>(@"Content\Textures\UI\NewGame");
             mNewGameButton.AlignMode = eAlignMode.TopLeft;
@@ -73,15 +74,17 @@ namespace XNArkanoid.UIGame
             mNewGameButton.Size = new Vector2(192, 48);
             this.mControls.Add(mNewGameButton);
 
-            mOptionsButtons = new UIButton(this.Game, this.mSpriteBatch);
-            mOptionsButtons.FocusAnimationSpeed = 0.9f;
-            mOptionsButtons.Texture = mGame.Content.Load<Texture2D>(@"Content\Textures\UI\Options");
-            mOptionsButtons.AlignMode = eAlignMode.TopLeft;
-            mOptionsButtons.Pos = new Vector2(40, 120);
-            mOptionsButtons.Size = new Vector2(192, 48);
-            this.mControls.Add(mOptionsButtons);
+            mOptionsButton = new UIButton(this.Game, this.mSpriteBatch);
+            mOptionsButton.Name = "Options";
+            mOptionsButton.FocusAnimationSpeed = 0.9f;
+            mOptionsButton.Texture = mGame.Content.Load<Texture2D>(@"Content\Textures\UI\Options");
+            mOptionsButton.AlignMode = eAlignMode.TopLeft;
+            mOptionsButton.Pos = new Vector2(40, 120);
+            mOptionsButton.Size = new Vector2(192, 48);
+            this.mControls.Add(mOptionsButton);
 
             mExitButton = new UIButton(this.Game, this.mSpriteBatch);
+            mExitButton.Name = "Exit";
             mExitButton.FocusAnimationSpeed = 0.9f;
             mExitButton.Texture = mGame.Content.Load<Texture2D>(@"Content\Textures\UI\Exit");
             mExitButton.AlignMode = eAlignMode.TopLeft;
