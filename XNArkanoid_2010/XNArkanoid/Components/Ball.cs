@@ -197,7 +197,7 @@ namespace XNArkanoid.Components
 
                 if (this.Intersects(brk.mDrawingRectangle, out coll, out dir))
                 {
-                    if (brk.Hits > 1)
+                    if (brk.RemainingHits > 1)
                         Sound.Sound.Play(eSounds.Hit3);
                     else Sound.Sound.Play(eSounds.Hit2);
 

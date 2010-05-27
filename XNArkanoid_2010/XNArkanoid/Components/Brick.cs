@@ -20,7 +20,8 @@ namespace XNArkanoid.Components
     {
         public Vector2 Position;
         public int Score;
-        public int Hits = 1;
+        public int RemainingHits = 1;
+        public int InitialHits = 1;
         public ePrizes Prize = ePrizes.None;
         public Vector2 Size;
         public Color Color;
@@ -34,9 +35,7 @@ namespace XNArkanoid.Components
         {
             get
             {
-                if (Hits == 0)
-                    return false;
-                else return true;
+                return (RemainingHits > 0);
             }
         }
         #endregion
@@ -47,6 +46,13 @@ namespace XNArkanoid.Components
         public Brick(XNArkanoidGame pGame) : base(pGame)
         {
             mGame = pGame;
+        }
+        /// <summary>
+        /// 
+        /// </summary>
+        public void Reset()
+        {
+            this.RemainingHits = this.InitialHits;
         }
         /// <summary>
         /// 
@@ -92,7 +98,7 @@ namespace XNArkanoid.Components
             mGame.mSpriteBatch.Draw(mBrickTextures[2], mShadowDrawingRectangle, Color.White);
 
             // Normal Draw
-            if (this.Hits > 1)
+            if (this.RemainingHits > 1)
                 mGame.mSpriteBatch.Draw(mBrickTextures[1], mDrawingRectangle, Color);
             else mGame.mSpriteBatch.Draw(mBrickTextures[0], mDrawingRectangle, Color); 
 
@@ -103,10 +109,10 @@ namespace XNArkanoid.Components
         /// </summary>
         public void HitByBall()
         {
-            if(this.Hits > 0)
-                this.Hits--;
+            if(this.RemainingHits > 0)
+                this.RemainingHits--;
 
-            if (this.Hits == 0 && this.Prize != ePrizes.None)
+            if (this.RemainingHits == 0 && this.Prize != ePrizes.None)
                 mGame.mCurrentLevel.AddPrize(this.Prize, new Vector2(mDrawingRectangle.Location.X, mDrawingRectangle.Location.Y));
 
             mGame.mVaus.mScore += this.Score;

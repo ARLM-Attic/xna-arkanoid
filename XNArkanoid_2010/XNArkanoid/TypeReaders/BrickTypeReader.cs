@@ -33,7 +33,7 @@ namespace XNArkanoid.TypeReaders
 
             brk.Position = input.ReadVector2();
             brk.Score = input.ReadInt32();
-            brk.Hits = input.ReadInt32();
+            brk.RemainingHits = brk.InitialHits = input.ReadInt32();
             brk.Prize = (ePrizes)Enum.Parse(typeof(ePrizes), input.ReadString(), false);
             brk.Size = input.ReadVector2();
 

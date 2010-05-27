@@ -163,7 +163,7 @@ namespace XNArkanoid.Components
         /// <summary>
         /// Resets all game logic of the level to it´s initial state
         /// </summary>
-        public void Reset()
+        public void Reset(bool pResetBricks)
         {
             mLevelInitializeCue = Sound.Sound.Play(eSounds.NewLevel);
 
@@ -174,6 +174,12 @@ namespace XNArkanoid.Components
             
             ball.mStickedToVausOffset = new Vector2(mGame.mVaus.Width - ball.mDiameterPixels, -ball.mRadiusPixels);
             this.mBalls.Add(ball);
+
+            if (pResetBricks)
+            {
+                foreach (Brick brk in mBricks)
+                    brk.Reset();
+            }
         }
 
         #region Prize management

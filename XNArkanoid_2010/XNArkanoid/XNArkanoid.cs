@@ -155,19 +155,23 @@ namespace XNArkanoid
             mVaus.mPosition = new Vector2(mVaus.mPosition.X, mGraphics.GraphicsDevice.Viewport.Height - 20 - Vaus.cHeight);
 
             // Load levels. Should be done after sprite creation
-            //Microsoft.Xna.Framework.Color colo = new Microsoft.Xna.Framework.Color(228, 255, 0);
-            //uint a = colo.PackedValue;
+            this.LoadLevels();
 
+            base.LoadContent();
+
+            XNArkanoidGame.mGameState = eGameState.DialogMain;
+        }
+        /// <summary>
+        /// 
+        /// </summary>
+        private void LoadLevels()
+        {
             mLevels.Clear();
             Level lev = Content.Load<Level>(@"Content\Levels\Level1");
             lev.UpdateDrawingRectangles(mGameRectangle);
             mLevels.Add(lev);
             foreach (Level level in mLevels)
                 level.LoadContent();
-
-            base.LoadContent();
-
-            XNArkanoidGame.mGameState = eGameState.DialogMain;
         }
         /// <summary>
         /// 
@@ -315,7 +319,7 @@ namespace XNArkanoid
             mVaus.mLivesRemaining = 3;
             mVaus.VausState = eVausState.Normal;
 
-            mCurrentLevel.Reset();
+            mCurrentLevel.Reset(false);
             mGameState = eGameState.Running;
             SoundEffectInstance returnValue = Sound.Sound.Play(eSounds.NewLevel);
         }
@@ -329,7 +333,10 @@ namespace XNArkanoid
 
             mCurrentLevelIdx = 0;
             mCurrentLevel = mLevels[0];
-            mCurrentLevel.Reset();
+
+            // Reset All Levels
+            foreach(Level lev in mLevels)
+                lev.Reset(true);
 
             mGameState = eGameState.Running;
             SoundEffectInstance returnValue = Sound.Sound.Play(eSounds.NewLevel);
@@ -351,7 +358,7 @@ namespace XNArkanoid
             }
             else
             {
-                mCurrentLevel.Reset();
+                mCurrentLevel.Reset(false);
                 mGameState = eGameState.Running;
                 SoundEffectInstance returnValue = Sound.Sound.Play(eSounds.NewLevel);
                 mVaus.VausState = eVausState.Normal;
